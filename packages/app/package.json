@@ -1,0 +1,33 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "private": true,
+  "sideEffects": false,
+  "dependencies": {
+    "bautista": "*",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "0.5.10",
+    "@swc/core": "^1.4.8",
+    "@types/react": "17.0.47",
+    "@types/react-dom": "17.0.17",
+    "css-loader": "^6.9.0",
+    "esbuild-loader": "^2.18.0",
+    "html-webpack-plugin": "^5.6.0",
+    "loader-utils": "^3.2.1",
+    "mini-css-extract-plugin": "^2.7.7",
+    "react-refresh": "^0.14.0",
+    "style-loader": "^3.3.4",
+    "swc-loader": "^0.2.3",
+    "webpack": "5.74.0",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "4.11.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "rm -rf dist && webpack --mode=production"
+  }
+}
